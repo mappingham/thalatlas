@@ -1,0 +1,22 @@
+[200~name: CI  # CI = Continuous Integration, runs tests automatically
+
+# This workflow runs every time I push to the repo
+on: [push]
+
+jobs:
+  build:  # the name of the job
+    runs-on: ubuntu-latest  # runs on a free Linux virtual machine (GitHub provides it)
+    steps:
+      # Step 1: checkout the repo so it has access to the files
+      - uses: actions/checkout@v4
+
+      # Step 2: set up Python 3.11 (same version I'll use locally)
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Step 3: install my basic geo libraries + run a placeholder script
+      - run: |
+          pip install geopandas shapely fiona requests matplotlib
+          python scripts/test_lookup.py
+
