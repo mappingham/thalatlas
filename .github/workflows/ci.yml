@@ -1,4 +1,4 @@
-[200~name: CI  # CI = Continuous Integration, runs tests automatically
+name: CI  # CI = Continuous Integration, runs tests automatically
 
 # This workflow runs every time I push to the repo
 on: [push]
@@ -16,7 +16,7 @@ jobs:
           python-version: '3.11'
 
       # Step 3: install my basic geo libraries + run a placeholder script
-      - run: |
+      - name: Install dependencies and run placeholder test
+        run: |
           pip install geopandas shapely fiona requests matplotlib
           python scripts/test_lookup.py
-
