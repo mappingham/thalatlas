@@ -1,0 +1,40 @@
+{
+    "Atlantic Ocean": {
+        "seas": [
+            {
+                "name": "Caribbean Sea",
+                "alternate_names": ["Mar Caribe"],
+                "notes": "Bordered by Central America and the Caribbean Islands.",
+                "subseas": [
+                    {
+                        "name": "Gulf of Honduras",
+                        "alternate_names": [],
+                        "notes": "Touches Belize, Guatemala, and Honduras."
+                    },
+                    {
+                        "name": "Gulf of Gonâve",
+                        "alternate_names": [],
+                        "notes": "Located off the coast of Haiti."
+                    }
+                ]
+            },
+            {
+                "name": "North Sea",
+                "alternate_names": ["Nordsee"],
+                "notes": "Between Great Britain and continental Europe."
+            }
+        ]
+    },
+
+    "Pacific Ocean": {
+        "seas": [
+            {
+                "name": "Coral Sea",
+                "alternate_names": [],
+                "notes": "Off the northeast coast of Australia",
+                "subseas": []
+            }
+        ]
+    }
+}
+
