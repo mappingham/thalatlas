@@ -1,39 +1,107 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Caribbean Sea",
-                "ocean": "Atlantic Ocean"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[
-                    [-80.0, 15.0],
-                    [-75.0, 15.0],
-                    [-75.0, 20.0],
-                    [-80.0, 20.0],
-                    [-80.0, 15.0]
-                ]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Coral Sea",
-                "ocean": "Pacific Ocean"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[
-                    [150.0, -20.0],
-                    [155.0, -20.0],
-                    [155.0, -15.0],
-                    [150.0, -15.0],
-                    [150.0, -20.0]
-                ]]
-            }
-        }
-    ]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coral Sea",
+        "ocean": "Pacific Ocean"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.0,
+              -20.0
+            ],
+            [
+              155.0,
+              -20.0
+            ],
+            [
+              155.0,
+              -15.0
+            ],
+            [
+              150.0,
+              -15.0
+            ],
+            [
+              150.0,
+              -20.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caribbean Sea",
+        "ocean": "Atlantic Ocean"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.0,
+              15.0
+            ],
+            [
+              -75.0,
+              15.0
+            ],
+            [
+              -75.0,
+              20.0
+            ],
+            [
+              -80.0,
+              20.0
+            ],
+            [
+              -80.0,
+              15.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mediterranean Sea",
+        "ocean": "Atlantic Ocean"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.0,
+              35.0
+            ],
+            [
+              20.0,
+              35.0
+            ],
+            [
+              20.0,
+              45.0
+            ],
+            [
+              -5.0,
+              45.0
+            ],
+            [
+              -5.0,
+              35.0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
