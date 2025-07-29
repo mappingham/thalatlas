@@ -1,40 +1,156 @@
 {
-    "Atlantic Ocean": {
-        "seas": [
-            {
-                "name": "Caribbean Sea",
-                "alternate_names": ["Mar Caribe"],
-                "notes": "Bordered by Central America and the Caribbean Islands.",
-                "subseas": [
-                    {
-                        "name": "Gulf of Honduras",
-                        "alternate_names": [],
-                        "notes": "Touches Belize, Guatemala, and Honduras."
-                    },
-                    {
-                        "name": "Gulf of Gonâve",
-                        "alternate_names": [],
-                        "notes": "Located off the coast of Haiti."
-                    }
-                ]
-            },
-            {
-                "name": "North Sea",
-                "alternate_names": ["Nordsee"],
-                "notes": "Between Great Britain and continental Europe."
-            }
+  "Atlantic Ocean": {
+    "seas": [
+      {
+        "name": "Caribbean Sea",
+        "alternate_names": [
+          "Mar Caribe"
+        ],
+        "notes": "Bordered by Central America and the Caribbean Islands.",
+        "subseas": [
+          {
+            "name": "Gulf of Honduras",
+            "alternate_names": [],
+            "notes": "Touches Belize, Guatemala, and Honduras."
+          },
+          {
+            "name": "Gulf of Gon\u00c3\u00a2ve",
+            "alternate_names": [],
+            "notes": "Located off the coast of Haiti."
+          },
+          {
+            "name": "Gulf of Paria",
+            "alternate_names": [],
+            "notes": "Shallow gulf between Trinidad and Venezuela"
+          }
         ]
-    },
-
-    "Pacific Ocean": {
-        "seas": [
-            {
-                "name": "Coral Sea",
-                "alternate_names": [],
-                "notes": "Off the northeast coast of Australia",
-                "subseas": []
-            }
+      },
+      {
+        "name": "North Sea",
+        "alternate_names": [
+          "Nordsee"
+        ],
+        "notes": "Between Great Britain and continental Europe."
+      },
+      {
+        "name": "Gulf of Guinea",
+        "alternate_names": [
+          "Golfo de Guinea"
+        ],
+        "notes": "Off the coast of West Africa",
+        "subseas": []
+      },
+      {
+        "name": "Mediterranean Sea",
+        "alternate_names": [
+          "Mare Nostrum",
+          "Mar Mediterr\u00e1neo"
+        ],
+        "notes": "Connected to the Atlantic via the Strait of Gibraltar",
+        "subseas": [
+          {
+            "name": "Tyrrhenian Sea",
+            "alternate_names": [],
+            "notes": "Under Mediterranean"
+          }
         ]
-    }
+      }
+    ]
+  },
+  "Pacific Ocean": {
+    "seas": [
+      {
+        "name": "Coral Sea",
+        "alternate_names": [],
+        "notes": "Off the northeast coast of Australia",
+        "subseas": []
+      },
+      {
+        "name": "Sea of Japan",
+        "alternate_names": [
+          "East Sea"
+        ],
+        "notes": "Between Japan, Korea, and Russia",
+        "subseas": []
+      },
+      {
+        "name": "Sea of Okhotsk",
+        "alternate_names": [],
+        "notes": "Northwest Pacific near Russia",
+        "subseas": []
+      },
+      {
+        "name": "Bering Sea",
+        "alternate_names": [],
+        "notes": "Between Alaska and Russia",
+        "subseas": []
+      }
+    ]
+  },
+  "Indian Ocean": {
+    "seas": [
+      {
+        "name": "Arabian Sea",
+        "alternate_names": [],
+        "notes": "Northwestern part of the Indian Ocean, bordered by India and the Arabian Peninsula",
+        "subseas": [
+          {
+            "name": "Gulf of Oman",
+            "alternate_names": [],
+            "notes": "Connects the Arabian Sea to the Persian Gulf."
+          }
+        ]
+      },
+      {
+        "name": "Bay of Bengal",
+        "alternate_names": [],
+        "notes": "Eastern part of the Indian Ocean, bordered by India, Bangladesh, and Myanmar",
+        "subseas": []
+      },
+      {
+        "name": "Andaman Sea",
+        "alternate_names": [],
+        "notes": "Southeast part of the Bay of Bengal",
+        "subseas": [
+          {
+            "name": "Gulf of Martaban",
+            "alternate_names": [],
+            "notes": "Off Myanmar coast"
+          }
+        ]
+      }
+    ]
+  },
+  "Southern Ocean": {
+    "seas": [
+      {
+        "name": "Weddell Sea",
+        "alternate_names": [],
+        "notes": "Near the Antarctic Peninsula",
+        "subseas": []
+      }
+    ]
+  },
+  "Arctic Ocean": {
+    "seas": [
+      {
+        "name": "Barents Sea",
+        "alternate_names": [],
+        "notes": "North of Norway and Russia",
+        "subseas": [
+          {
+            "name": "White Sea",
+            "alternate_names": [],
+            "notes": "Northwestern Russia"
+          }
+        ]
+      },
+      {
+        "name": "Laptev Sea",
+        "alternate_names": [],
+        "notes": "Along the Siberian coast",
+        "subseas": []
+      }
+    ]
+  }
 }
-
