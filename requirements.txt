@@ -1,6 +1,0 @@
-geopandas
-shapely
-fiona
-requests
-matplotlib
-jupyter

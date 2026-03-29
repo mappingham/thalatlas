@@ -1,7 +1,3 @@
-# Thalatlas
+# Building Maritime Space from the Baseline
 
-Thalatlas is a repository for normal and straight baselines denoting maritime boundaries based on United Nations Law of the Sea (UNCLOS) definitions for each sovereign state and territory.
-
-
-
-
+A GIS workflow for constructing a global baseline dataset under UNCLOS from hydrographic shoreline, legal baseline coordinates, and high-resolution coastline proxies.
